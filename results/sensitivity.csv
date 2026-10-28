@@ -1,0 +1,5 @@
+cohort,appointments,rate
+All valid appointments,110521,0.20189828
+One earliest-booked valid appointment per patient,62298,0.20828919
+"Valid appointments, age at most 100",110514,0.20188392
+Original records with recognized outcome,110527,0.20193256

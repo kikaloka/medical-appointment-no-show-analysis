@@ -1,0 +1,9 @@
+check,count,decision
+Original appointments,110527,Immutable downloaded snapshot
+Exact duplicate rows,0,No automatic patient-level deduplication
+Missing source cells,0,No imputation required if zero
+Invalid age rows,1,Exclude negative or absent age; retain zero and high ages
+Invalid date/lead rows,5,Exclude unparseable dates or negative calendar-day lead
+Overlapping exclusions,0,Count once in union
+Excluded unique rows,6,Union of age and date flags
+Analysis appointments,110521,Appointment-level analysis cohort
